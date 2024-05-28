@@ -1,0 +1,31 @@
+.list-item {
+  list-style: none;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 200px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.star-button {
+  background-color: transparent;
+  border: 0;
+}
+
+.date-container {
+  color: #b5b7c4;
+}
