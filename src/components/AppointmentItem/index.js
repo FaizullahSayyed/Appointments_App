@@ -43,15 +43,7 @@ const AppointmentItem = props => {
         )}
       </div>
       <p className="date-container">
-        Date:{' '}
-        {format(
-          new Date(
-            parseInt(date.slice(0, 4)),
-            parseInt(date.slice(5, 7)),
-            parseInt(date.slice(8, 10)),
-          ),
-          'dd MMMM yyyy, EEEE',
-        )}
+        Date: {date ? format(new Date(date), 'dd MMMM yyyy, EEEE') : ''}
       </p>
     </li>
   )

@@ -101,3 +101,34 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media screen and (orientation: portrait) {
+  .bg-container {
+    align-items: baseline;
+  }
+  .inner-container {
+    margin-top: 20px;
+    width: 90vw;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  .input-field-and-image-container {
+    height: 15vh;
+  }
+  .main-heading {
+    font-size: 20px;
+  }
+
+  .input-field {
+    width: 80%;
+  }
+  .appointments-image {
+    display: none;
+  }
+  .star-button-container {
+    width: 70vw;
+  }
+  .list-container {
+    flex-direction: column;
+  }
+}

@@ -55,23 +55,31 @@ class Appointments extends Component {
                 <h1 className="main-heading">Add Appointment</h1>
                 <form className="form-container">
                   <div className="title-input-container">
-                    <p className="input-label">Title</p>
+                    <label htmlFor="titleInput" className="input-label">
+                      Title
+                    </label>
+                    <br />
                     <input
                       className="input-field"
                       type="text"
                       placeholder="Title"
                       onChange={this.updateTitle}
                       value={title}
+                      id="titleInput"
                     />
                   </div>
                   <div className="date-input-container">
-                    <p className="input-label">Date</p>
+                    <label htmlFor="dateInput" className="input-label">
+                      Date
+                    </label>
+                    <br />
 
                     <input
                       className="input-field"
                       type="date"
                       onChange={this.updateDate}
                       value={date}
+                      id="dateInput"
                     />
                   </div>
 
